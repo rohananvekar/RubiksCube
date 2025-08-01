@@ -1,6 +1,4 @@
-//
-// Created by Lakshya Mittal on 26-12-2021.
-//
+
 
 #include "RubiksCube.h"
 
@@ -384,4 +382,5 @@ struct HashBitboard {
         for (int i = 1; i < 6; i++) final_hash ^= r1.bitboard[i];
         return (size_t) final_hash;
     }
+
 };

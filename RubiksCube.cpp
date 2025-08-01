@@ -1,6 +1,4 @@
-//
-// Created by Shubham Patil on 17/12/21.
-//
+
 
 #include "RubiksCube.h"
 
@@ -322,4 +320,5 @@ uint8_t RubiksCube::getCornerOrientation(uint8_t ind) const {
     } else if (corner[2] == actual_str[0]) {
         return 2;
     } else return 0;
+
 }

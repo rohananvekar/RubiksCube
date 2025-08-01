@@ -1,6 +1,4 @@
-//
-// Created by Lakshya Mittal on 04-01-2022.
-//
+
 
 #include<bits/stdc++.h>
 #include "RubiksCube.h"
@@ -67,5 +65,6 @@ public:
         return moves;
     }
 };
+
 
 #endif //RUBIKS_CUBE_SOLVER_BFSSOLVER_H
